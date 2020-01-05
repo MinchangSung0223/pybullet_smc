@@ -1,6 +1,5 @@
 ## Install bullet3
 ```bash
-git clone https://github.com/bulletphysics/bullet3.git
 cd bullet3
 export bullet3_HOME=$PWD
 ./build_cmake_pybullet_double.sh
