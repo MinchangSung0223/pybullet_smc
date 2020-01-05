@@ -1,0 +1,2 @@
+/home/sung/bullet3/data/cmake-3.15.3/Source/Checks/Curses-build/CMakeFiles/rebuild_cache.dir
+/home/sung/bullet3/data/cmake-3.15.3/Source/Checks/Curses-build/CMakeFiles/edit_cache.dir

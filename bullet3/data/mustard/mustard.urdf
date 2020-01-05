@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<robot name="cube.urdf">
+  <link name="baseLink">
+    <contact>
+      <lateral_friction value="0.5"/>
+      <rolling_friction value="0.0"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+      <origin rpy="0 0 0" xyz="0.05 0.04 0.1"/>
+       <mass value="10"/>
+       <inertia ixx="10" ixy="0" ixz="0" iyy="10" iyz="0" izz="10"/>
+    </inertial>
+    <visual>
+      <origin rpy="0 0 0.4" xyz="-0.01 0 0"/>
+      <geometry>
+        <mesh filename="mustard.obj" scale="1 1 1"/>
+      </geometry>
+       <material name="yellow">
+        <color rgba="1 1 0.4 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin rpy="0 0 0" xyz="0 0 0"/>
+      <geometry>
+	 	<mesh filename="mustard.obj" scale="0.98 0.98 0.98"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
+
